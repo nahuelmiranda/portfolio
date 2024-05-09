@@ -1,0 +1,188 @@
+* {
+    font-family: Inter, sans-serif;
+}
+
+
+
+
+body {
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    position: relative;
+    font-size: 20px;
+    color: black;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+header {
+    display: flex;
+    gap: 1em;
+    padding-right: 3em;
+    background-color: gray;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+    align-items: left;
+
+}
+
+header a i {
+    color: black;
+    font-size: 3em;
+    padding: 0.5em;
+    justify-content: flex-start;
+    align-items: right;
+}
+
+.ini {
+    color: white;
+}
+
+.con {
+    color: black;
+}
+
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.seccion-2 img {
+    width: 100%;
+}
+
+footer h2 {
+    width: 100%;
+    padding-left: 3em;
+    margin: 3em;
+}
+
+.navegacion {
+    background-color: gray;
+}
+
+.fa-solid fa-cube {
+    background-color: gray;
+}
+
+.btn-generar {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.trabajos {
+    display: flex;
+    flex-direction: column;
+}
+
+.trabajo-1 {
+    padding: 1em;
+    margin-left: 35em;
+    float: left;
+}
+
+.trabajo-2 {
+    padding: 1em;
+    margin-right: 35em;
+    float: right;
+}
+
+.calculadora-imagen {
+    width: 1px;
+    height: 1px;
+}
+
+.calendario-imagen {
+    width: 1px;
+    height: 1px;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    .navegacion {
+
+        check {
+            display: none;
+            align-items: end;
+            text-align: end;
+        }
+
+        .checkbtn {
+            font-size: 25px;
+            color: black;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+            align-items: end;
+            text-align: end;
+        }
+    }
+
+    .seccion-1 {
+        margin: 3em;
+        padding: 3em;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main section div h2 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav i {
+        display: flex;
+        color: aqua;
+        align-items: right;
+        text-align: right;
+        justify-content: right;
+        float: right;
+    }
+
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+}
